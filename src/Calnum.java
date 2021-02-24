@@ -2,12 +2,11 @@ public class Calnum {
     public static void main(String[] args){
         int n = 0, sum = 0;
         while (true){
+            n = n + 2;
             if((n == 40) || (n == 48)){
-                n = n+2;
                 continue;
             }
             sum = sum + n;
-            n = n + 2;
             if(sum >= 25000)
                 break;
         }
