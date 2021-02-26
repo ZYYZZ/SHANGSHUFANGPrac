@@ -8,7 +8,7 @@ public class LoginByMap {
         users.put("guess","123456");
         users.put("my","my_666");
         String inputuser,inputpassword;
-        String localpassword = "";
+        String localpassword = null;
         Scanner sc = new Scanner(System.in);
         inputuser = sc.nextLine();
         inputpassword = sc.nextLine();
