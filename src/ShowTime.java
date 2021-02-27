@@ -30,6 +30,6 @@ public class ShowTime {
         String input;
         Scanner sc = new Scanner(System.in);
         input = sc.next();
-        System.out.println(tm.get(input));
+        System.out.printf("%s在文件中出现了%d次",input,tm.get(input));
     }
 }
